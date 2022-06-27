@@ -1,0 +1,27 @@
+What are escape characters, and how do you use them?
+A. Escape characters are used to insert special caharacters in the form of strings. use a \ backslash sign.
+What do the escape characters n and t stand for?
+A. new line and tab
+What is the way to include backslash characters in a string?
+A. \\
+The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+A. It will not create a problem as whatever we write inside " double quotes are considered as string.
+How do you write a string of newlines if you don't want to use the n character?
+A. Using """-------------""" multi line characters.
+What are the values of the given expressions?
+'Hello, world!'[1]------------------'e'
+'Hello, world!'[0:5]----------------'Hello'
+'Hello, world!'[:5]-----------------'Hello'
+'Hello, world!'[3:]-----------------'lo, world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper()----------------------'HELLO'
+'Hello'.upper().isupper()------------True
+'Hello'.upper().lower()--------------'hello'
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split() -['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one.'.split()) -'There-can-only-one.'
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+A. lstring(), rstring(), center()
+10. What is the best way to remove whitespace characters from the start or end?
+A. lstring() for start and rstring() for end.
